@@ -10,11 +10,11 @@
 <body>
   <!-- Header -->
   <header>
-    <div class="container">
+    <div class="container header-container">
       <h1 class="logo">Titanium Tribune</h1>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -22,25 +22,41 @@
     </div>
   </header>
 
-  <!-- Main -->
-  <main class="container">
-    <h2>Latest Posts</h2>
-    <article>
-      <h3>The Rise of Artificial Intelligence in Daily Life</h3>
-      <p>Artificial Intelligence (AI) is no longer a futuristic concept. From virtual assistants to self-driving cars, AI is shaping how we live and work...</p>
-      <a href="#">Read More</a>
-    </article>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome to Titanium Tribune</h2>
+      <p>Your source for modern stories, news, and insights.</p>
+    </div>
+  </section>
 
-    <article>
-      <h3>The Dark Side of AI: What We Should Be Concerned About</h3>
-      <p>While AI brings efficiency and innovation, it also raises ethical concerns — from job loss to privacy issues. Should we slow down its rapid growth?...</p>
-      <a href="#">Read More</a>
-    </article>
+  <!-- Blog Posts -->
+  <main class="container">
+    <h2 class="section-title">Latest Posts</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>The Rise of Artificial Intelligence in Daily Life</h3>
+        <p>Artificial Intelligence (AI) is no longer a futuristic concept. From assistants to self-driving cars, AI is shaping how we live...</p>
+        <a href="#">Read More</a>
+      </article>
+
+      <article class="card">
+        <h3>The Dark Side of AI: Concerns We Can’t Ignore</h3>
+        <p>While AI brings efficiency, it also raises concerns — from job loss to privacy. Should we slow down its rapid growth?...</p>
+        <a href="#">Read More</a>
+      </article>
+
+      <article class="card">
+        <h3>Climate Change and Our Future</h3>
+        <p>Global warming is accelerating, and every action counts. From policy to personal habits, change is urgent...</p>
+        <a href="#">Read More</a>
+      </article>
+    </div>
   </main>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Titanium Tribune | Contact: <a href="mailto:titaniumtribune@gmail.com">titaniumtribune@gmail.com</a></p>
+    <p>&copy; 2025 Titanium Tribune | <a href="mailto:titaniumtribune@gmail.com">titaniumtribune@gmail.com</a></p>
   </footer>
 </body>
 </html>
