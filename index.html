@@ -10,96 +10,54 @@
 <body>
   <!-- Header -->
   <header>
-    <div class="container">
-      <h1>Titanium Tribune</h1>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1 class="logo">Titanium Tribune</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- Main Content -->
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Welcome to Titanium Tribune</h2>
+    <p>Your daily dose of modern insights, trends, and ideas that shape the future.</p>
+  </section>
+
+  <!-- News/Posts Section -->
   <main>
-    <section id="home">
-      <div class="container">
-        <h2>Welcome to Titanium Tribune</h2>
-        <p>Your source for insightful articles, news, and stories in the digital era.</p>
-      </div>
-    </section>
+    <section class="posts">
+      <!-- Post 1 -->
+      <article class="post">
+        <h2>AI in Daily Life: How Technology Shapes Our Future</h2>
+        <p>
+          Artificial Intelligence (AI) is changing the way we live, from smart assistants to 
+          personalized healthcare. With AI’s rapid growth, the future promises more innovation, 
+          but also raises concerns about ethics, privacy, and jobs.
+        </p>
+        <a href="#" class="read-more">Read More</a>
+      </article>
 
-    <!-- News Section -->
-    <section id="news">
-      <div class="container">
-        <h2>Latest News</h2>
-
-        <!-- Positive AI News -->
-        <article class="news-item">
-          <h3>AI in Daily Life: How Technology Shapes Our Future</h3>
-          <p>
-            Artificial Intelligence is becoming an integral part of our daily lives. From smart assistants and recommendation systems to healthcare and education, AI is shaping the way we live, work, and interact.
-            <span class="more-text"> Embracing AI responsibly can unlock tremendous opportunities for society.</span>
-          </p>
-          <a href="#" class="read-more" onclick="toggleReadMore(event)">Read More</a>
-          <p class="news-date">Published: September 20, 2025</p>
-        </article>
-
-        <!-- Negative AI News -->
-        <article class="news-item">
-          <h3>The Dark Side of AI: Challenges We Can't Ignore</h3>
-          <p>
-            Artificial Intelligence has been a revolutionary technology, but it comes with several risks. Increasing automation may lead to job displacement, privacy concerns, algorithmic bias, and ethical dilemmas.
-            <span class="more-text"> Understanding these issues is critical to ensure AI benefits society responsibly.</span>
-          </p>
-          <a href="#" class="read-more" onclick="toggleReadMore(event)">Read More</a>
-          <p class="news-date">Published: September 24, 2025</p>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-      <div class="container">
-        <h2>About Us</h2>
-        <p>Titanium Tribune is dedicated to delivering professional, insightful, and reliable news content in a modern and user-friendly platform.</p>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="container">
-        <h2>Contact Us</h2>
-        <p>Email: info@titaniumtribune.com</p>
-        <p>Phone: +880 123 456 789</p>
-      </div>
+      <!-- Post 2 -->
+      <article class="post">
+        <h2>The Dark Side of AI</h2>
+        <p>
+          Artificial Intelligence (AI) is revolutionizing the world, but it also has concerning 
+          drawbacks. It replaces human jobs, spreads bias or misinformation, and threatens 
+          personal privacy. While powerful, AI must be used responsibly with strong policies 
+          to reduce its risks.
+        </p>
+        <a href="#" class="read-more">Read More</a>
+      </article>
     </section>
   </main>
 
   <!-- Footer -->
   <footer>
-    <div class="container">
-      <p>&copy; 2025 Titanium Tribune. All Rights Reserved.</p>
-    </div>
+    <p>&copy; 2025 Titanium Tribune. All rights reserved.</p>
   </footer>
-
-  <!-- Read More Script -->
-  <script>
-    function toggleReadMore(event) {
-      event.preventDefault();
-      const moreText = event.target.previousElementSibling.querySelector('.more-text');
-      if (moreText.style.display === "inline") {
-        moreText.style.display = "none";
-        event.target.textContent = "Read More";
-      } else {
-        moreText.style.display = "inline";
-        event.target.textContent = "Read Less";
-      }
-    }
-  </script>
 </body>
 </html>
