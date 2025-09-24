@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Titanium Tribune - A modern blogging platform with insightful articles and stories.">
   <title>Titanium Tribune</title>
   <link rel="stylesheet" href="style.css">
-  <meta name="description" content="Titanium Tribune - A modern blogging platform with insightful articles and stories.">
 </head>
 <body>
   <!-- Header -->
-  <header>
-    <div class="container header-container">
-      <h1 class="logo">Titanium Tribune</h1>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">Titanium Tribune</div>
       <nav>
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
@@ -26,37 +26,35 @@
   <section class="hero">
     <div class="container">
       <h2>Welcome to Titanium Tribune</h2>
-      <p>Your source for modern stories, news, and insights.</p>
+      <p>Your source for insightful articles, opinions, and the latest updates on technology, culture, and society.</p>
+      <a href="#articles" class="btn">Explore Articles</a>
     </div>
   </section>
 
-  <!-- Blog Posts -->
-  <main class="container">
-    <h2 class="section-title">Latest Posts</h2>
-    <div class="grid">
-      <article class="card">
-        <h3>The Rise of Artificial Intelligence in Daily Life</h3>
-        <p>Artificial Intelligence (AI) is no longer a futuristic concept. From assistants to self-driving cars, AI is shaping how we live...</p>
-        <a href="#">Read More</a>
-      </article>
+  <!-- Articles Section -->
+  <section class="articles" id="articles">
+    <div class="container">
+      <h2>Latest Articles</h2>
 
-      <article class="card">
-        <h3>The Dark Side of AI: Concerns We Can’t Ignore</h3>
-        <p>While AI brings efficiency, it also raises concerns — from job loss to privacy. Should we slow down its rapid growth?...</p>
+      <div class="article">
+        <h3>The Rise of AI in Everyday Life</h3>
+        <p>Artificial Intelligence is reshaping how we live, work, and interact. From healthcare to education, discover how AI is becoming part of daily routines.</p>
         <a href="#">Read More</a>
-      </article>
+      </div>
 
-      <article class="card">
-        <h3>Climate Change and Our Future</h3>
-        <p>Global warming is accelerating, and every action counts. From policy to personal habits, change is urgent...</p>
+      <div class="article">
+        <h3>The Dark Side of Artificial Intelligence</h3>
+        <p>While AI brings innovation, it also raises concerns about job loss, privacy risks, and ethical dilemmas. Here’s what you need to know.</p>
         <a href="#">Read More</a>
-      </article>
+      </div>
+
     </div>
-  </main>
+  </section>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Titanium Tribune | <a href="mailto:titaniumtribune@gmail.com">titaniumtribune@gmail.com</a></p>
+    <p>&copy; 2025 Titanium Tribune. All Rights Reserved.</p>
+    <p>Contact us at <a href="mailto:titaniumtribune@gmail.com">titaniumtribune@gmail.com</a></p>
   </footer>
 </body>
 </html>
