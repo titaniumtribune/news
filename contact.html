@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact Titanium Tribune.">
   <title>Contact - Titanium Tribune</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -23,26 +22,16 @@
 
   <main class="container">
     <h2>Contact Us</h2>
-    <p>Email us at: <a href="mailto:titaniumtribune@gmail.com">titaniumtribune@gmail.com</a></p>
-
-    <form>
-      <label for="name">Your Name</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Your Email</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="message">Your Message</label>
-      <textarea id="message" name="message" required></textarea>
-
+    <form action="https://formsubmit.co/titaniumtribune@gmail.com" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
       <button type="submit">Send Message</button>
     </form>
   </main>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2025 Titanium Tribune. All rights reserved.</p>
-    </div>
+    <p>&copy; 2025 Titanium Tribune | Contact: <a href="mailto:titaniumtribune@gmail.com">titaniumtribune@gmail.com</a></p>
   </footer>
 </body>
 </html>
