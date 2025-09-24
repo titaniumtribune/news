@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Titanium Tribune</title>
+  <meta name="description" content="Contact Titanium Tribune - Send us your queries or feedback.">
+  <title>Contact Us - Titanium Tribune</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container header-container">
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
       <h1 class="logo">Titanium Tribune</h1>
       <nav>
         <ul>
@@ -20,18 +22,33 @@
     </div>
   </header>
 
-  <main class="container">
-    <h2>Contact Us</h2>
-    <form action="https://formsubmit.co/titaniumtribune@gmail.com" method="POST" class="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </main>
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>Have a question, feedback, or story idea? Send us a message below.</p>
+      
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
 
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="_replyto" placeholder="Enter your email address" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Titanium Tribune | <a href="mailto:titaniumtribune@gmail.com">titaniumtribune@gmail.com</a></p>
+    <div class="container">
+      <p>&copy; 2025 Titanium Tribune. All Rights Reserved.</p>
+      <p>📧 <a href="mailto:titaniumtribune@gmail.com">titaniumtribune@gmail.com</a></p>
+    </div>
   </footer>
 </body>
 </html>
