@@ -1,71 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Titanium Tribune - A modern blogging platform with insightful articles and stories.">
-  <title>Titanium Tribune</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Titanium Tribune — Latest</title>
+  <meta name="description" content="Titanium Tribune — insightful articles on AI, tech and blogging. Latest posts on AI and creators." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="canonical" href="https://USERNAME.github.io/REPO_NAME/index.html" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Titanium Tribune — Latest" />
+  <meta property="og:description" content="Latest articles on AI, tech & blogging. Read insightful posts on Titanium Tribune." />
+  <meta property="og:type" content="website" />
 </head>
 <body>
-  <!-- Header -->
-  <header>
+  <header class="site-header">
     <div class="container">
-      <h1 class="logo">Titanium Tribune</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <a class="logo" href="index.html">Titanium Tribune</a>
+      <nav class="site-nav"><ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></nav>
     </div>
   </header>
 
-  <!-- Hero -->
   <section class="hero">
     <div class="container">
-      <h2>Welcome to Titanium Tribune</h2>
-      <p>Discover insightful articles, inspiring stories, and the latest trends in blogging and technology.</p>
+      <h1>Welcome to Titanium Tribune</h1>
+      <p>Insightful articles on technology, AI, and creators. Read the latest and explore the archive.</p>
+      <a class="cta" href="blog.html">Explore All Articles</a>
     </div>
   </section>
 
-  <!-- Featured Articles -->
-  <section class="articles">
-    <div class="container">
-      <h2 class="section-title">Latest Articles</h2>
-      <div class="article-grid">
-        
-        <!-- Post 1 -->
-        <article class="card">
-          <h3>The Rise of Blogging in the Digital Age</h3>
-          <p>Blogging has transformed from a simple online diary to a powerful medium of influence, education, and business in today’s digital world.</p>
-          <a href="blog1.html" class="btn">Read More</a>
-        </article>
+  <main class="container posts" id="posts">
+    <h2 style="text-align:center;margin-bottom:16px;">Latest Articles</h2>
 
-        <!-- Post 2 -->
-        <article class="card">
-          <h3>The Bad Side of Blogging Nobody Talks About</h3>
-          <p>Behind the glamour, blogging has its challenges — from burnout to financial instability. Here’s what every aspiring blogger should know.</p>
-          <a href="blog2.html" class="btn">Read More</a>
-        </article>
+    <div class="post-grid">
+      <!-- LATEST POST 1: Amit Agarwal -->
+      <article class="post-card">
+        <h3>Amit Agarwal: India’s First Professional Blogger and the Mind Behind Labnol</h3>
+        <p>When people talk about the rise of professional blogging in India, one name stands out — Amit Agarwal, founder of Labnol. Read his journey.</p>
+        <a class="read-more" href="post-amit-agarwal.html">Read More</a>
+      </article>
 
-        <!-- Post 3 -->
-        <article class="card">
-          <h3>Amit Agarwal: India’s First Professional Blogger</h3>
-          <p>Amit Agarwal, founder of Labnol, is often called India’s first professional blogger. His story is a true inspiration for creators worldwide.</p>
-          <a href="blog3.html" class="btn">Read More</a>
-        </article>
-
-      </div>
+      <!-- LATEST POST 2: AI Rise -->
+      <article class="post-card">
+        <h3>The Rise of Artificial Intelligence: Transforming Our Daily Lives</h3>
+        <p>AI is no longer just a concept. From virtual assistants to healthcare, discover how AI is reshaping daily life.</p>
+        <a class="read-more" href="post-ai-rise.html">Read More</a>
+      </article>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer>
+  </main>
+
+  <footer class="site-footer">
     <div class="container">
-      <p>&copy; 2025 Titanium Tribune. All rights reserved.</p>
+      <div>&copy; 2025 Titanium Tribune</div>
+      <div>Contact: <a href="mailto:titaniumtribune@gmail.com">titaniumtribune@gmail.com</a></div>
     </div>
   </footer>
 </body>
