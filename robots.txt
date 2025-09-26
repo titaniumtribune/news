@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://titaniumtribune.github.io/titaniumtribune/news/sitemap.xml
