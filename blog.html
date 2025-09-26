@@ -1,58 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="All articles published on Titanium Tribune.">
-  <title>Blog - Titanium Tribune</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blog — Titanium Tribune</title>
+  <meta name="description" content="All articles and posts on Titanium Tribune — AI, blogging, tech and more." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Header -->
-  <header>
+  <header class="site-header">
     <div class="container">
-      <h1 class="logo">Titanium Tribune</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <a class="logo" href="index.html">Titanium Tribune</a>
+      <nav class="site-nav"><ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></nav>
     </div>
   </header>
 
-  <!-- All Posts -->
-  <main class="container">
-    <h2>All Articles</h2>
+  <main class="container blog-list">
+    <h2 style="margin:22px 0;">All Articles</h2>
 
-    <article class="post">
-      <h3>Amit Agarwal: India’s First Professional Blogger and the Mind Behind Labnol</h3>
-      <p>When people talk about the rise of professional blogging in India, one name stands out — Amit Agarwal...</p>
-      <a href="post-amit-agarwal.html" class="read-more">Read More</a>
+    <article class="post-card">
+      <h3><a href="post-amit-agarwal.html">Amit Agarwal: India’s First Professional Blogger and the Mind Behind Labnol</a></h3>
+      <p>Founder of Digital Inspiration, Amit Agarwal turned blogging into a sustainable solo business—read his story.</p>
+      <a class="read-more" href="post-amit-agarwal.html">Read More</a>
     </article>
 
-    <article class="post">
-      <h3>The Rise of Artificial Intelligence: Transforming Our Daily Lives</h3>
-      <p>Artificial Intelligence (AI) is no longer science fiction — it’s transforming the way we live, work...</p>
-      <a href="post-ai-rise.html" class="read-more">Read More</a>
+    <article class="post-card">
+      <h3><a href="post-ai-rise.html">The Rise of Artificial Intelligence: Transforming Our Daily Lives</a></h3>
+      <p>How AI became part of everyday life — smart assistants, personalized services and more.</p>
+      <a class="read-more" href="post-ai-rise.html">Read More</a>
     </article>
 
-    <article class="post">
-      <h3>The Dark Side of AI: Risks and Challenges</h3>
-      <p>While Artificial Intelligence offers countless benefits, it also brings serious risks — from job 
-      displacement to ethical dilemmas...</p>
-      <a href="post-ai-bad-things.html" class="read-more">Read More</a>
+    <article class="post-card">
+      <h3><a href="post-ai-bad-things.html">The Dark Side of AI: Risks and Challenges</a></h3>
+      <p>Bias, privacy concerns, job displacement — the problems AI brings and how to address them.</p>
+      <a class="read-more" href="post-ai-bad-things.html">Read More</a>
     </article>
+
   </main>
 
-  <!-- Footer -->
-  <footer>
+  <footer class="site-footer">
     <div class="container">
-      <p>&copy; 2025 Titanium Tribune | Contact: 
-        <a href="mailto:titaniumtribune@gmail.com">titaniumtribune@gmail.com</a>
-      </p>
+      <div>&copy; 2025 Titanium Tribune</div>
+      <div>Contact: <a href="mailto:titaniumtribune@gmail.com">titaniumtribune@gmail.com</a></div>
     </div>
   </footer>
 </body>
