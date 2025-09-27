@@ -5,6 +5,7 @@
   <title>Contact — Titanium Tribune</title>
   <meta name="description" content="Contact Titanium Tribune — send feedback or story ideas." />
   <link rel="stylesheet" href="style.css" />
+  <link rel="canonical" href="https://titaniumtribune.github.io/news/contact.html" />
 </head>
 <body>
   <header class="site-header"><div class="container"><a class="logo" href="index.html">Titanium Tribune</a><nav class="site-nav"><ul><li><a href="index.html">Home</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html" class="active">Contact</a></li></ul></nav></div></header>
@@ -14,13 +15,11 @@
       <h1>Contact Us</h1>
       <p>Send your message — we'll reply to your email.</p>
 
-      <!-- FormSubmit: first-time activation email will be sent to your inbox. -->
       <form action="https://formsubmit.co/titaniumtribune@gmail.com" method="POST" class="contact-form">
         <div class="form-row"><label for="name">Name</label><input id="name" name="name" type="text" required></div>
         <div class="form-row"><label for="email">Email</label><input id="email" name="_replyto" type="email" required></div>
         <div class="form-row"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
 
-        <!-- Optional: Add formsubmit hidden inputs for nicer emails -->
         <input type="hidden" name="_subject" value="New message from Titanium Tribune website">
         <input type="hidden" name="_captcha" value="false">
 
