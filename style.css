@@ -23,8 +23,9 @@ body {
 }
 .site-header .container { display:flex; align-items:center; justify-content:space-between; gap:16px; }
 .logo { font-weight:700; font-size:20px; letter-spacing:0.4px; color:#fff; text-decoration:none; }
-.site-nav ul { list-style:none; display:flex; gap:18px; align-items:center; }
-.site-nav a { color:#e6eefc; text-decoration:none; padding:6px 8px; font-weight:600; border-radius:6px; }
+.site-nav ul { list-style:none; display:flex; gap:18px; align-items:center; margin:0; padding:0; }
+.site-nav ul li { list-style:none; }
+.site-nav a { color:#e6eefc; text-decoration:none; padding:6px 8px; font-weight:600; border-radius:6px; display:inline-block; }
 .site-nav a.active, .site-nav a:hover { background: rgba(230,238,252,0.12); color:#fff; }
 
 /* Hero */
@@ -37,9 +38,9 @@ body {
 .hero p { font-size:16px; max-width:880px; margin: 0 auto 18px; color: rgba(255,255,255,0.95); }
 .hero .cta { display:inline-block; padding:12px 20px; background:#fff; color:#0b2545; border-radius:8px; font-weight:700; text-decoration:none; }
 
-/* Latest posts (grid of two on home) */
+/* Latest posts (grid) */
 .posts { margin-top:28px; margin-bottom:28px; }
-.posts .post-grid {
+.post-grid {
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap:18px;
@@ -89,5 +90,5 @@ button[type="submit"]:hover { background:#084fd6; }
 @media (max-width: 880px) {
   .hero h1 { font-size:28px; } .hero p { font-size:15px; padding:0 12px; }
   .site-header .container { flex-direction:column; gap:12px; align-items:flex-start; }
-  header nav { order:2; }
+  .site-nav { width:100%; }
 }
