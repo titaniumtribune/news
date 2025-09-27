@@ -6,7 +6,7 @@ It features insightful articles about Artificial Intelligence, technology, blogg
 ---
 
 ## 🌐 Live Website
-👉 [Titanium Tribune](https://titaniumtribune.github.io/titaniumtribune/news/)  
+👉 https://titaniumtribune.github.io/news/
 
 ---
 
